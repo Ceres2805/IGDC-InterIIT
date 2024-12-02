@@ -3565,6 +3565,7 @@ GameObject:
   - component: {fileID: 6729551893813905219}
   - component: {fileID: 6729551893813905220}
   - component: {fileID: 6729551893813905221}
+  - component: {fileID: 6729551893813905222}
   m_Layer: 0
   m_Name: BasementDoor2
   m_TagString: door
@@ -4283,6 +4284,7 @@ GameObject:
   - component: {fileID: 9026731359387685157}
   - component: {fileID: 9026731359387685158}
   - component: {fileID: 9026731359387685159}
+  - component: {fileID: 9026731359387685160}
   m_Layer: 0
   m_Name: BasementDoor1
   m_TagString: door
@@ -7438,6 +7440,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -691251380316152119, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+--- !u!95 &6729551893813905222
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909540304853405131}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6078fba1bf961a479f34bd90c6ca00e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &6741918290786367034
 Transform:
   m_ObjectHideFlags: 0
@@ -10860,6 +10884,28 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5134456535870194065, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+--- !u!95 &9026731359387685160
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478848103571513142}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6078fba1bf961a479f34bd90c6ca00e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9030327001538082516
 GameObject:
   m_ObjectHideFlags: 0
