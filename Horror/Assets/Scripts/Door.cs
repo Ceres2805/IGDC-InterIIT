@@ -1,51 +1,88 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Door : MonoBehaviour
-{
-    public float openDistance = 2f;    // How far the door should open
-    public float doorSpeed = 2f;       // Speed at which the door opens and closes
-    public KeyCode interactKey = KeyCode.F;  // Key to open/close the door
+{    
+    //Distance from which the player can interact with the door
+    public float interactionDistance;
 
-    private Vector3 closedPosition;    // Door's position when closed
-    private Vector3 openPosition;      // Door's position when open
-    private bool isOpening = false;    // Is the door currently opening?
-    private bool isClosing = false;    // Is the door currently closing?
+    //The text that appears
+    public GameObject intText;
 
-    private void Start()
+    //The names of the door open and door close animations
+    public string doorOpenAnimName, doorCloseAnimName;
+
+    //The door open and door close sounds
+    public AudioClip doorOpen, doorClose;
+
+    void Update()
     {
-        closedPosition = transform.position;  // Initial position (closed)
-        openPosition = transform.position + transform.right * openDistance;  // Open position (right direction)
-    }
+        Ray ray = new Ray(transform.position, transform.forward);
 
-    private void Update()
-    {
-        // Check if the interact key is pressed
-        if (Input.GetKeyDown(interactKey))
+        RaycastHit hit;
+
+        //If the raycast hits something
+        if(Physics.Raycast(ray, out hit, interactionDistance))
         {
-            if (transform.position == closedPosition)
+            //If the object the raycast hits is tagged as door
+            if (hit.collider.gameObject.tag == "door")
             {
-                // Start opening the door
-                isOpening = true;
-                isClosing = false;
+                GameObject doorParent = hit.collider.gameObject;
+
+                Animator doorAnim = doorParent.GetComponent<Animator>();
+
+                AudioSource doorSound = hit.collider.gameObject.GetComponent<AudioSource>();
+
+                //The interaction text is set active
+                intText.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    //If the door's Animator's state is set to the open animation
+                    if (doorAnim.GetCurrentAnimatorStateInfo(0).IsName(doorOpenAnimName))
+                    {
+                        //The doorSound's audio clip will change to the door close sound
+                        doorSound.clip = doorClose;
+
+                        //The door close sound will play
+                        doorSound.Play();
+
+                        //The door's open animation trigger is reset
+                        doorAnim.ResetTrigger("open");
+
+                        //The door's close animation trigger is set (it plays)
+                        doorAnim.SetTrigger("close");
+                    }
+                    //If the door's Animator's state is set to the close animation
+                    if (doorAnim.GetCurrentAnimatorStateInfo(0).IsName(doorCloseAnimName))
+                    {
+                        //The doorSound's audio clip will change to the door open sound
+                        doorSound.clip = doorOpen;
+
+                        //The door open sound will play
+                        doorSound.Play();
+
+                        //The door's close animation trigger is reset
+                        doorAnim.ResetTrigger("close");
+
+                        //The door's open animation trigger is set (it plays)
+                        doorAnim.SetTrigger("open");
+                    }
+                }
             }
-            else if (transform.position == openPosition)
+            //else, if not looking at the door
+            else
             {
-                // Start closing the door
-                isOpening = false;
-                isClosing = true;
+                //The interaction text is disabled
+                intText.SetActive(false);
             }
         }
-
-        // Handle the door's movement
-        if (isOpening)
+        //else, if not looking at anything
+        else
         {
-            // Move the door towards the open position
-            transform.position = Vector3.MoveTowards(transform.position, openPosition, doorSpeed * Time.deltaTime);
-        }
-        else if (isClosing)
-        {
-            // Move the door towards the closed position
-            transform.position = Vector3.MoveTowards(transform.position, closedPosition, doorSpeed * Time.deltaTime);
+            //The interaction text is disabled
+            intText.SetActive(false);
         }
     }
 }
