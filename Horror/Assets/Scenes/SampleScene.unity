@@ -2033,8 +2033,20 @@ PrefabInstance:
       value: fbx(ONLYIMPORT)
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.66553
+      value: 25.47
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2042,23 +2054,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.6404958
+      value: 1.44
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.8129307
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: -0.5823604
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2066,11 +2078,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: -71.233
       objectReference: {fileID: 0}
     - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592656483959578809, guid: a5658278c93f3ab4fb495b8130c6f9b9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2533,6 +2549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912750755}
   - component: {fileID: 912750754}
+  - component: {fileID: 912750756}
   m_Layer: 0
   m_Name: jump3
   m_TagString: Untagged
@@ -2555,12 +2572,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.4869957, y: 2.4117427, z: 3.260739}
-  m_Center: {x: 1.8214345, y: 0.52977395, z: -0.074704826}
+  m_Size: {x: 4.781383, y: 2.4117427, z: 3.1233568}
+  m_Center: {x: 1.9686282, y: 0.52977395, z: -0.14339602}
 --- !u!4 &912750755
 Transform:
   m_ObjectHideFlags: 0
@@ -2576,6 +2593,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &912750756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912750753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d245ef509e62b8049babeb9e76199180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpscareObject: {fileID: 717294071}
+  wait: 3
+  flickerDuration: 0.1
 --- !u!4 &940400845 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 828010715583051437, guid: 11e35f37ff89b2e4bbac5ad4860675a4, type: 3}
@@ -9849,7 +9881,7 @@ Transform:
   m_GameObject: {fileID: 7094977338987521978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.3, y: 3.99, z: -42.3}
+  m_LocalPosition: {x: 38.6, y: 7.6, z: -47.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
