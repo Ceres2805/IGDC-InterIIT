@@ -2777,7 +2777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_BounceIntensity
@@ -6252,6 +6252,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5155680767492504273, guid: 8c8beca6fb514b34e9783bc205d8b274, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8706838927979524462, guid: 8c8beca6fb514b34e9783bc205d8b274, type: 3}
       propertyPath: m_Name
       value: crawler
