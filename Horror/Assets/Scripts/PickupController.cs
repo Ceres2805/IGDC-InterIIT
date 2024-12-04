@@ -5,9 +5,25 @@ public class PickupController : MonoBehaviour
     public float pickupRange = 2.5f;  // Maximum distance for pickup
     public Transform holdPosition;   // Position to hold the object
     private GameObject currentObject = null;
+    public GameObject intText;
+
 
     void Update()
     {
+        Ray ray = new Ray(transform.position, transform.forward);
+        RaycastHit hit;
+        if(Physics.Raycast(ray, out hit, pickupRange))
+        {
+            if (hit.collider.gameObject.tag == "Pickup")
+            {
+                intText.SetActive(true);
+            }
+            else
+            {
+                intText.SetActive(false);
+            }
+        }
+        
         if (Input.GetKeyDown(KeyCode.E) && currentObject == null)
         {
             TryPickup();
