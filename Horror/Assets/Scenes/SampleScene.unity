@@ -1732,7 +1732,7 @@ Transform:
   m_GameObject: {fileID: 628918956}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.23, y: 0.974, z: 1.232}
+  m_LocalPosition: {x: 0.444, y: 0.974, z: 1.053}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2238,7 +2238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &809861986
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2255,7 +2255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 21.2}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &809861987
@@ -2278,7 +2278,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[E]'
+  m_text: Press [E] to interact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 413288882d69b574fa37603181f552db, type: 2}
   m_sharedMaterial: {fileID: 4165279574617257475, guid: 413288882d69b574fa37603181f552db, type: 2}
@@ -2729,11 +2729,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1735683365350335616, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.11800003
+      value: -0.402
       objectReference: {fileID: 0}
     - target: {fileID: 1735683365350335616, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 1735683365350335616, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2768,8 +2768,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6946716
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_Intensity
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6380031423893368356, guid: 94408d19a926709488f515a2c9d4cdef, type: 3}
       propertyPath: m_BounceIntensity
@@ -3486,7 +3494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1450889543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3503,8 +3511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 21.2}
-  m_SizeDelta: {x: 94, y: 50}
+  m_AnchoredPosition: {x: 0, y: 20}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450889544
 MonoBehaviour:
@@ -5865,7 +5873,6 @@ GameObject:
   - component: {fileID: 7685886780804200626}
   - component: {fileID: 4244626407249497662}
   - component: {fileID: 453084650027323982}
-  - component: {fileID: 7685886780804200627}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -8867,6 +8874,8 @@ MonoBehaviour:
   doorCloseAnimName: close
   doorOpen: {fileID: 8300000, guid: a200ceb3276a64815ba89e6db4488604, type: 3}
   doorClose: {fileID: 8300000, guid: 04213f14ae5074a84b3c41aef6b6a00f, type: 3}
+  holdPosition: {fileID: 628918957}
+  intText2: {fileID: 1450889542}
 --- !u!33 &5181699722237291916
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11330,21 +11339,6 @@ MonoBehaviour:
     m_Bits: 0
   canPush: 0
   strength: 1.1
---- !u!114 &7685886780804200627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453084650027323970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 043bfc87cbad31c47b1b5a9d65504517, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRange: 2.5
-  holdPosition: {fileID: 628918957}
-  intText: {fileID: 1450889542}
 --- !u!1 &7713260599577033095
 GameObject:
   m_ObjectHideFlags: 0
