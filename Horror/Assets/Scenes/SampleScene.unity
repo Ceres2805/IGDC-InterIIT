@@ -3486,7 +3486,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1450889543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11344,7 +11344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupRange: 2.5
   holdPosition: {fileID: 628918957}
-  intText: {fileID: 0}
+  intText: {fileID: 1450889542}
 --- !u!1 &7713260599577033095
 GameObject:
   m_ObjectHideFlags: 0
