@@ -48,40 +48,17 @@ public class Door : MonoBehaviour
                 }
             }
 
-            else if (hit.collider.gameObject.tag == "Pickup")
-            {
-                intText2.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E) && currentObject == null)
-                {
-                    currentObject = hit.collider.gameObject;
-                    currentObject.GetComponent<Rigidbody>().isKinematic = true;  // Disable physics
-                    currentObject.transform.position = holdPosition.position;
-                    currentObject.transform.SetParent(holdPosition);  // Parent to player hold position
-                }
-            }
-
-            else if (hit.collider.gameObject.tag == "Diary1")
-            {
-                intText3.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    intText3.SetActive(false);
-                    info1.SetActive(true);
-                }
-            }
+           
 
             else
             {
                 intText.SetActive(false);
-                intText2.SetActive(false);
-                intText3.SetActive(false);
             }
         }
         else
         {
             intText.SetActive(false);
-            intText2.SetActive(false);
-            intText3.SetActive(false);
+           
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentObject != null)

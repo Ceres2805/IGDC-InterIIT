@@ -1,7 +1,8 @@
 using UnityEngine;
 using TMPro;
-
-public class PickupController : MonoBehaviour
+public class Interactions : MonoBehaviour
+{
+   public class ObjectPickupWithDiaryInteraction : MonoBehaviour
 {
     public float pickupRange = 3f; // Maximum distance to pick up an object
     public float sphereRadius = 0.5f; // Radius of the sphere for the SphereCast
@@ -22,14 +23,7 @@ public class PickupController : MonoBehaviour
     void Update()
     {
         // Check if the player is looking at a pickup or diary object
-        if (heldObject == null && activeDiaryCanvas == null)
-        {
-            CheckForInteractableObject();
-        }
-        else
-        {
-            ClearInteraction();
-        }
+        CheckForInteractableObject();
 
         if (Input.GetKeyDown(KeyCode.E)) // Press 'E' to interact
         {
@@ -164,4 +158,5 @@ public class PickupController : MonoBehaviour
         interactText.gameObject.SetActive(false);
         currentDiary = null;
     }
+}
 }
