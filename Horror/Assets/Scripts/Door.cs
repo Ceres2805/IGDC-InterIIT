@@ -81,11 +81,13 @@ public class Door : MonoBehaviour
         {
             intText.SetActive(false);
             intText2.SetActive(false);
+            intText3.SetActive(false);
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentObject != null)
         {
             DropObject();
+            info1.SetActive(false);
         }
     }
     void DropObject()
@@ -93,5 +95,9 @@ public class Door : MonoBehaviour
         currentObject.GetComponent<Rigidbody>().isKinematic = false;  // Re-enable physics
         currentObject.transform.SetParent(null);  // Unparent the object
         currentObject = null;
+    }
+
+    void Start(){
+        info1.SetActive(false);
     }
 }
