@@ -11,6 +11,8 @@ public class Door : MonoBehaviour
     public Transform holdPosition;   // Position to hold the object
     private GameObject currentObject = null;
     public GameObject intText2;
+    public GameObject intText3;
+
     void Update()
     {
         Ray ray = new Ray(transform.position, transform.forward);
@@ -59,11 +61,11 @@ public class Door : MonoBehaviour
 
             else if (hit.collider.gameObject.tag == "Diary")
             {
-                intText.SetActive(true);
+                intText3.SetActive(true);
                 BookInteraction bookInteraction = hit.collider.gameObject.GetComponent<BookInteraction>();
                 if (Input.GetKeyDown(KeyCode.E) && bookInteraction != null)
                 {
-                    intText.SetActive(false);
+                    intText3.SetActive(false);
                     bookInteraction.isPlayerNearby = true;
                 }
             }
@@ -72,6 +74,7 @@ public class Door : MonoBehaviour
             {
                 intText.SetActive(false);
                 intText2.SetActive(false);
+                intText3.SetActive(false);
             }
         }
         else
@@ -79,6 +82,7 @@ public class Door : MonoBehaviour
             intText.SetActive(false);
             intText2.SetActive(false);
         }
+
         if (Input.GetKeyDown(KeyCode.R) && currentObject != null)
         {
             DropObject();
