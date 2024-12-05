@@ -17,11 +17,16 @@ public class BookInteraction : MonoBehaviour
         if (isPlayerNearby)
         {
             ShowStoryInfo();
+            Cursor.lockState = CursorLockMode.None; // Unlock the cursor
+            Cursor.visible = true;                 // Make the cursor visible
         }
         else
         {
             HideStoryInfo();
+            Cursor.lockState = CursorLockMode.Locked; // Lock the cursor
+            Cursor.visible = false;                  // Hide the cursor
         }
+
     }
 
     void OnTriggerEnter(Collider other)

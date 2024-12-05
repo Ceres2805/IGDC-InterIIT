@@ -59,7 +59,7 @@ public class Door : MonoBehaviour
 
             else if (hit.collider.gameObject.tag == "Diary")
             {
-                intText2.SetActive(true);
+                intText.SetActive(true);
                 BookInteraction bookInteraction = hit.collider.gameObject.GetComponent<BookInteraction>();
                 if (Input.GetKeyDown(KeyCode.E) && bookInteraction != null)
                 {
