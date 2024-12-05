@@ -29,22 +29,6 @@ public class BookInteraction : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerNearby = true;
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            isPlayerNearby = false;
-        }
-    }
-
     void ShowStoryInfo()
     {
         infoPanel.SetActive(true); // Activate the info panel to show book information

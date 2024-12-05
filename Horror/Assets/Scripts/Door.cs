@@ -63,6 +63,7 @@ public class Door : MonoBehaviour
                 BookInteraction bookInteraction = hit.collider.gameObject.GetComponent<BookInteraction>();
                 if (Input.GetKeyDown(KeyCode.E) && bookInteraction != null)
                 {
+                    intText.SetActive(false);
                     bookInteraction.isPlayerNearby = true;
                 }
             }
