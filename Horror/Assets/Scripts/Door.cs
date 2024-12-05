@@ -12,6 +12,7 @@ public class Door : MonoBehaviour
     private GameObject currentObject = null;
     public GameObject intText2;
     public GameObject intText3;
+    public GameObject info1;
 
     void Update()
     {
@@ -59,14 +60,13 @@ public class Door : MonoBehaviour
                 }
             }
 
-            else if (hit.collider.gameObject.tag == "Diary")
+            else if (hit.collider.gameObject.tag == "Diary1")
             {
                 intText3.SetActive(true);
-                BookInteraction bookInteraction = hit.collider.gameObject.GetComponent<BookInteraction>();
-                if (Input.GetKeyDown(KeyCode.E) && bookInteraction != null)
+                if (Input.GetKeyDown(KeyCode.E))
                 {
                     intText3.SetActive(false);
-                    bookInteraction.isPlayerNearby = true;
+                    info1.SetActive(true);
                 }
             }
 

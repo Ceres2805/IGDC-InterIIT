@@ -4415,11 +4415,10 @@ GameObject:
   - component: {fileID: 1134505391}
   - component: {fileID: 1134505390}
   - component: {fileID: 1134505389}
-  - component: {fileID: 1134505388}
   - component: {fileID: 1134505392}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Diary
+  m_TagString: Diary1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4439,20 +4438,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1134505388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134505386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b765356e08b8f47a3d7ee9a3ef88db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  infoPanel: {fileID: 1848001796}
-  isPlayerNearby: 0
 --- !u!65 &1134505389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5204,7 +5189,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1994731991}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: StoryInfoPanel, Assembly-CSharp
         m_MethodName: CloseInfo
         m_Mode: 1
@@ -8079,55 +8064,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 828010715583051437, guid: 14d73ce38eef4114d9d37d0bdea70415, type: 3}
   m_PrefabInstance: {fileID: 1161076708}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1994731990
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1994731992}
-  - component: {fileID: 1994731991}
-  m_Layer: 5
-  m_Name: Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1994731991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994731990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3b4932aab36cca43b494e81f118e545, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  infoPanel: {fileID: 1848001796}
---- !u!224 &1994731992
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994731990}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9175, y: 0.9175, z: 0.9175}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 168.02907}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1999596531 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4476715408029612253, guid: 9cbd50c19ebecc341987a1a32776f947, type: 3}
@@ -10711,6 +10647,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 61.4
       objectReference: {fileID: 0}
+    - target: {fileID: 8726663830359211493, guid: a8ed8f1356a358e46a089317dd06512e, type: 3}
+      propertyPath: info1
+      value: 
+      objectReference: {fileID: 1848001796}
     - target: {fileID: 8726663830359211493, guid: a8ed8f1356a358e46a089317dd06512e, type: 3}
       propertyPath: intText
       value: 
@@ -24257,4 +24197,3 @@ SceneRoots:
   - {fileID: 671697341}
   - {fileID: 2017852546}
   - {fileID: 1134505387}
-  - {fileID: 1994731992}
