@@ -57,6 +57,16 @@ public class Door : MonoBehaviour
                 }
             }
 
+            else if (hit.collider.gameObject.tag == "Diary")
+            {
+                intText2.SetActive(true);
+                BookInteraction bookInteraction = hit.collider.gameObject.GetComponent<BookInteraction>();
+                if (Input.GetKeyDown(KeyCode.E) && bookInteraction != null)
+                {
+                    bookInteraction.isPlayerNearby = true;
+                }
+            }
+
             else
             {
                 intText.SetActive(false);
