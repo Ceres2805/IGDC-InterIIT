@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
@@ -10125,6 +10125,10 @@ PrefabInstance:
       propertyPath: JumpHeight
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 4911083934748045542, guid: a8ed8f1356a358e46a089317dd06512e, type: 3}
+      propertyPath: GroundLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6425790517660192498, guid: a8ed8f1356a358e46a089317dd06512e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -10843,7 +10847,7 @@ GameObject:
   - component: {fileID: 1637199923533818458}
   - component: {fileID: 3556849670180789904}
   - component: {fileID: 3556849670180789905}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mansion2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
