@@ -3,8 +3,8 @@ using TMPro;
 
 public class PickupController : MonoBehaviour
 {
-    public float pickupRange = 3f; // Maximum distance to pick up an object
-    public float sphereRadius = 0.5f; // Radius of the sphere for the SphereCast
+    public float pickupRange = 5f; // Maximum distance to pick up an object
+    public float sphereRadius = 1f; // Radius of the sphere for the SphereCast
     public Transform holdPosition; // Position to hold the picked-up object
     public TextMeshProUGUI interactText; // TextMeshPro UI text for interaction
     public GameObject heldObject; // Currently held object
