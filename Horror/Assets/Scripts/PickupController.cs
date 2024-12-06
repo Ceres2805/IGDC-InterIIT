@@ -7,7 +7,7 @@ public class PickupController : MonoBehaviour
     public float sphereRadius = 0.5f; // Radius of the sphere for the SphereCast
     public Transform holdPosition; // Position to hold the picked-up object
     public TextMeshProUGUI interactText; // TextMeshPro UI text for interaction
-    private GameObject heldObject; // Currently held object
+    public GameObject heldObject; // Currently held object
     private Rigidbody heldObjectRigidbody;
 
     private GameObject currentDiary; // Reference to the current diary object

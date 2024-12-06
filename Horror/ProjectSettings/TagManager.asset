@@ -10,6 +10,8 @@ TagManager:
   - Diary
   - Diary1
   - Candle
+  - Door
+  - Key
   layers:
   - Default
   - TransparentFX
