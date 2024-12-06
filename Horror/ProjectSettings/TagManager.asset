@@ -9,6 +9,7 @@ TagManager:
   - Pickup
   - Diary
   - Diary1
+  - Candle
   layers:
   - Default
   - TransparentFX

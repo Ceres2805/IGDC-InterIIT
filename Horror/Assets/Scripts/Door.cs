@@ -73,8 +73,4 @@ public class Door : MonoBehaviour
         currentObject.transform.SetParent(null);  // Unparent the object
         currentObject = null;
     }
-
-    void Start(){
-        info1.SetActive(false);
-    }
 }
