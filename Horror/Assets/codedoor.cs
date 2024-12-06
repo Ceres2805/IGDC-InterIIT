@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // For UI components
+using UnityEngine.UI;
 
 public class codedoor : MonoBehaviour
 {
@@ -22,6 +20,7 @@ public class codedoor : MonoBehaviour
     void Start()
     {
         passwordPanel.SetActive(false); // Hide the password panel initially
+        LockCursor(); // Ensure the cursor starts locked
     }
 
     void Update()
@@ -41,9 +40,10 @@ public class codedoor : MonoBehaviour
                 {
                     if (!isDoorUnlocked)
                     {
-                        // Show the password input panel
+                        // Show the password input panel and unlock cursor
                         passwordPanel.SetActive(true);
-                        passwordInputField.text = "";
+                        UnlockCursor();
+                        passwordInputField.ActivateInputField(); // Focus the input field
                         isPasswordPanelActive = true;
                     }
                     else
@@ -62,6 +62,12 @@ public class codedoor : MonoBehaviour
         {
             intText.SetActive(false);
         }
+
+        // Close the password panel with Escape
+        if (isPasswordPanelActive && Input.GetKeyDown(KeyCode.Escape))
+        {
+            CancelPassword();
+        }
     }
 
     public void SubmitPassword()
@@ -70,9 +76,8 @@ public class codedoor : MonoBehaviour
         if (passwordInputField.text == correctPassword)
         {
             isDoorUnlocked = true;
-            passwordPanel.SetActive(false);
-            isPasswordPanelActive = false;
             Debug.Log("Door Unlocked!");
+            ClosePasswordPanel();
         }
         else
         {
@@ -82,9 +87,14 @@ public class codedoor : MonoBehaviour
 
     public void CancelPassword()
     {
-        // Hide the password panel without unlocking the door
+        ClosePasswordPanel(); // Close without unlocking
+    }
+
+    private void ClosePasswordPanel()
+    {
         passwordPanel.SetActive(false);
         isPasswordPanelActive = false;
+        LockCursor();
     }
 
     private void ToggleDoorState()
@@ -103,5 +113,17 @@ public class codedoor : MonoBehaviour
             doorAnim.ResetTrigger("close");
             doorAnim.SetTrigger("open");
         }
+    }
+
+    private void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None; // Unlock the cursor
+        Cursor.visible = true; // Make the cursor visible
+    }
+
+    private void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked; // Lock the cursor
+        Cursor.visible = false; // Hide the cursor
     }
 }
