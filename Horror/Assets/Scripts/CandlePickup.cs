@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class PickupController : MonoBehaviour
+public class CandlePickup : MonoBehaviour
 {
     public float pickupRange = 3f; // Maximum distance to pick up an object
     public float sphereRadius = 0.5f; // Radius of the sphere for the SphereCast
@@ -21,7 +21,6 @@ public class PickupController : MonoBehaviour
 
     void Update()
     {
-        // Check if the player is looking at a pickup or diary object
         if (heldObject == null && activeDiaryCanvas == null)
         {
             CheckForInteractableObject();
@@ -58,7 +57,7 @@ public class PickupController : MonoBehaviour
 
         if (Physics.SphereCast(ray, sphereRadius, out hit, pickupRange))
         {
-            if (hit.collider.CompareTag("Pickup"))
+            if (hit.collider.CompareTag("Candle"))
             {
                 // Show interaction text for pickup objects
                 interactText.gameObject.SetActive(true);
@@ -67,17 +66,7 @@ public class PickupController : MonoBehaviour
                 // Update text position to follow the object in world space
                 interactText.transform.position = Camera.main.WorldToScreenPoint(hit.collider.transform.position);
             }
-            else if (hit.collider.CompareTag("Diary"))
-            {
-                // Show interaction text for diary objects
-                interactText.gameObject.SetActive(true);
-                interactText.text = "Press E to Read Diary";
-
-                // Update text position to follow the object in world space
-                interactText.transform.position = Camera.main.WorldToScreenPoint(hit.collider.transform.position);
-
-                currentDiary = hit.collider.gameObject; // Store reference to the diary
-            }
+            
             else
             {
                 // Hide text if not looking at an interactable object
@@ -98,13 +87,9 @@ public class PickupController : MonoBehaviour
 
         if (Physics.SphereCast(ray, sphereRadius, out hit, pickupRange))
         {
-            if (hit.collider.CompareTag("Pickup"))
+            if (hit.collider.CompareTag("Candle"))
             {
                 PickupObject(hit.collider.gameObject);
-            }
-            else if (hit.collider.CompareTag("Diary"))
-            {
-                OpenDiary(hit.collider.gameObject);
             }
         }
     }
@@ -122,46 +107,18 @@ public class PickupController : MonoBehaviour
         obj.transform.position = holdPosition.position; // Move to hold position
         obj.transform.parent = holdPosition; // Parent to hold position
 
-        interactText.gameObject.SetActive(false); // Hide interaction text
-    }
-
-    void OpenDiary(GameObject diary)
-    {
-        // Enable the diary's associated UI panel
-        Canvas diaryCanvas = diary.GetComponentInChildren<Canvas>(true);
-        if (diaryCanvas != null)
+        // Notify the CandleShrink script if the object is a candle
+        CandleShrink candleShrink = obj.GetComponent<CandleShrink>();
+        if (candleShrink != null)
         {
-            diaryCanvas.gameObject.SetActive(true);
-            activeDiaryCanvas = diaryCanvas; // Store reference to the active diary canvas
+            candleShrink.OnPickup();
         }
 
         interactText.gameObject.SetActive(false); // Hide interaction text
-    }
-
-    void CloseDiary()
-    {
-        if (activeDiaryCanvas != null)
-        {
-            activeDiaryCanvas.gameObject.SetActive(false); // Disable the active diary panel
-            activeDiaryCanvas = null; // Clear the reference
-        }
-    }
-
-    void DropObject()
-    {
-        if (heldObjectRigidbody != null)
-        {
-            heldObjectRigidbody.isKinematic = false; // Re-enable physics
-        }
-
-        heldObject.transform.parent = null; // Unparent object
-        heldObject = null; // Clear reference
-        heldObjectRigidbody = null;
     }
 
     void ClearInteraction()
     {
         interactText.gameObject.SetActive(false);
-        currentDiary = null;
     }
 }
