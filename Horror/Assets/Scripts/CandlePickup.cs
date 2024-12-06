@@ -21,7 +21,7 @@ public class CandlePickup : MonoBehaviour
 
     void Update()
     {
-        if (heldObject == null && activeDiaryCanvas == null)
+        if (heldObject == null)
         {
             CheckForInteractableObject();
         }
