@@ -45,7 +45,8 @@ public class CandleShrink : MonoBehaviour
         {
             if (candlePointLight != null)
             {
-                candlePointLight.SetActive(false); // Deactivate the light
+                candlePointLight.SetActive(false); 
+                Destroy(gameObject);
             }
             lightTurnedOff = true; // Prevent multiple calls
         }
