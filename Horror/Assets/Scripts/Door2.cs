@@ -5,6 +5,7 @@ public class Door2 : MonoBehaviour
   private PickupController pickupScript; // Reference to the PickupObject script
     public TMPro.TextMeshProUGUI interactionText; // UI text for door interaction prompts
     public Transform door; // Reference to the door Transform
+    public Animator openanim;
     private Collider doorCollider; // Non-trigger collider for the door
 
     private bool isDoorUnlocked = false;
@@ -77,7 +78,7 @@ public class Door2 : MonoBehaviour
 
         // Example door opening logic
         Debug.Log("Door unlocked and opened!");
-        door.Rotate(0, 90f, 0); // Adjust rotation angle as needed
+        openanim.SetTrigger("open");
         if (doorCollider != null)
         {
             doorCollider.enabled = false; // Disable the door's physical barrier

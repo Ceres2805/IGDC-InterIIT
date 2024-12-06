@@ -19492,6 +19492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionText: {fileID: 28907208}
   door: {fileID: 454740536703447769}
+  openanim: {fileID: 6348965276208280027}
 --- !u!65 &6348965276208280029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24039,6 +24040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionText: {fileID: 28907208}
   door: {fileID: 6741918290786367034}
+  openanim: {fileID: 8263873033819482411}
 --- !u!65 &8263873033819482413
 BoxCollider:
   m_ObjectHideFlags: 0
