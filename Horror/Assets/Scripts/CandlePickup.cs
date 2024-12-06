@@ -37,17 +37,6 @@ public class CandlePickup : MonoBehaviour
                 TryInteractWithObject();
             }
         }
-        else if (Input.GetKeyDown(KeyCode.R)) // Drop object with 'R'
-        {
-            if (heldObject != null)
-            {
-                DropObject();
-            }
-        }
-        else if (Input.GetMouseButtonDown(1)) // Close diary with right mouse button
-        {
-            CloseDiary();
-        }
     }
 
     void CheckForInteractableObject()
