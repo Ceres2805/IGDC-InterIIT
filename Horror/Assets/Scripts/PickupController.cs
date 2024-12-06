@@ -122,6 +122,13 @@ public class PickupController : MonoBehaviour
         obj.transform.position = holdPosition.position; // Move to hold position
         obj.transform.parent = holdPosition; // Parent to hold position
 
+        // Notify the CandleShrink script if the object is a candle
+        CandleShrink candleShrink = obj.GetComponent<CandleShrink>();
+        if (candleShrink != null)
+        {
+            candleShrink.OnPickup();
+        }
+
         interactText.gameObject.SetActive(false); // Hide interaction text
     }
 
