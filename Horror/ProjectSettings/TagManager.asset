@@ -12,6 +12,8 @@ TagManager:
   - Candle
   - Door
   - Key
+  - keypad
+  - codedoor
   layers:
   - Default
   - TransparentFX
