@@ -4,7 +4,6 @@ public class Door2 : MonoBehaviour
 {
   private PickupController pickupScript; // Reference to the PickupObject script
     public TMPro.TextMeshProUGUI interactionText; // UI text for door interaction prompts
-    public Transform door; // Reference to the door Transform
     public Animator openanim;
     private Collider doorCollider; // Non-trigger collider for the door
 

@@ -1,13 +1,4 @@
-﻿//333333333333333333333333333333333333333333333333333333333333333333\\
-//
-//          Arthur: Cato Parnell
-//          Description of script: control keypad button clicks and actions
-//          Any queries please go to Youtube: Cato Parnell and ask on video. 
-//          Thanks.
-//
-//33333333333333333333333333333333333333333333333333333333333333333\\
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -15,20 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class keypad : MonoBehaviour
 {
-    // *** CAN DELETE THESE ** \\
-    // Used to hide joystick and slider
-    [Header("Objects to Hide/Show")]
-    public GameObject objectToDisable;
-    public GameObject objectToDisable2;
-
-    // Object to be enabled is the keypad. This is needed
     public GameObject objectToEnable;
-
-    // *** Breakdown of header(public) variables *** \\
-    // curPassword : Pasword to set. Ive set the password in the project. Note it can be any length and letters or numbers or sysmbols
-    // input: What is currently entered
-    // displayText : Text area on keypad the password entered gets displayed too.
-    // audioData : Play this sound when user enters in password incorrectly too many times
 
     [Header("Keypad Settings")]
     public string curPassword = "123";
@@ -79,8 +57,7 @@ public class keypad : MonoBehaviour
 
     void OnGUI()
     {
-        // Action for clicking keypad( GameObject ) on screen
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -101,14 +78,6 @@ public class keypad : MonoBehaviour
                 }
 
             }
-        }
-
-        // Disable sections when keypadScreen is set to true
-        if (keypadScreen)
-        {
-            objectToDisable.SetActive(false);
-            objectToDisable2.SetActive(false);
-            objectToEnable.SetActive(true);
         }
 
     }
