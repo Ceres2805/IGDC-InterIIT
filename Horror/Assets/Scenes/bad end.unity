@@ -445,7 +445,6 @@ GameObject:
   - component: {fileID: 148498886}
   - component: {fileID: 148498885}
   - component: {fileID: 148498884}
-  - component: {fileID: 148498883}
   - component: {fileID: 148498882}
   - component: {fileID: 148498881}
   - component: {fileID: 148498880}
@@ -632,18 +631,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &148498883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148498878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236210e6d1b3b8145a5b94b03ff22af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &148498884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,8 +676,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 868904794}
-        m_TargetAssemblyTypeName: BadEnd1, Assembly-CSharp
-        m_MethodName: Mainmenuu
+        m_TargetAssemblyTypeName: BadEnd, Assembly-CSharp
+        m_MethodName: Mainmen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1353,7 +1340,9 @@ GameObject:
   - component: {fileID: 623299346}
   - component: {fileID: 623299345}
   - component: {fileID: 623299344}
+  - component: {fileID: 623299343}
   - component: {fileID: 623299342}
+  - component: {fileID: 623299341}
   - component: {fileID: 623299340}
   - component: {fileID: 623299347}
   - component: {fileID: 623299348}
@@ -1429,6 +1418,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &623299341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623299338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd84c273b291e254688be6d6ab69503f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &623299342
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1526,6 +1527,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &623299343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623299338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236210e6d1b3b8145a5b94b03ff22af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &623299344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1571,8 +1584,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 868904794}
-        m_TargetAssemblyTypeName: BadEnd1, Assembly-CSharp
-        m_MethodName: Quitts
+        m_TargetAssemblyTypeName: BadEnd, Assembly-CSharp
+        m_MethodName: Quitt
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2021,7 +2034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 89}
+  m_AnchoredPosition: {x: 34.78, y: 89}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &773253854
@@ -2044,7 +2057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME OVER
+  m_text: BAD END
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8bbcdbc113169004e8d29555bac5b305, type: 2}
   m_sharedMaterial: {fileID: -5667943921427839968, guid: 8bbcdbc113169004e8d29555bac5b305, type: 2}
@@ -2053,8 +2066,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278199039
-  m_fontColor: {r: 1, g: 0.13147238, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2259,7 +2272,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 868904790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb59579bc9ceb141924ab43dbd0832f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bf489fb8ff380c458981f6e0465acd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &873923347
