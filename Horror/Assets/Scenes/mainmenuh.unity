@@ -313,9 +313,7 @@ GameObject:
   - component: {fileID: 148498886}
   - component: {fileID: 148498885}
   - component: {fileID: 148498884}
-  - component: {fileID: 148498883}
   - component: {fileID: 148498882}
-  - component: {fileID: 148498881}
   - component: {fileID: 148498880}
   - component: {fileID: 148498887}
   - component: {fileID: 148498888}
@@ -391,18 +389,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &148498881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148498878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd84c273b291e254688be6d6ab69503f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &148498882
 AudioSource:
   m_ObjectHideFlags: 0
@@ -500,18 +486,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &148498883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148498878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236210e6d1b3b8145a5b94b03ff22af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &148498884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1035,9 +1009,7 @@ GameObject:
   - component: {fileID: 623299346}
   - component: {fileID: 623299345}
   - component: {fileID: 623299344}
-  - component: {fileID: 623299343}
   - component: {fileID: 623299342}
-  - component: {fileID: 623299341}
   - component: {fileID: 623299340}
   - component: {fileID: 623299347}
   - component: {fileID: 623299348}
@@ -1113,18 +1085,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &623299341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623299338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd84c273b291e254688be6d6ab69503f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &623299342
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1222,18 +1182,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &623299343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623299338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236210e6d1b3b8145a5b94b03ff22af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &623299344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1370,7 +1318,6 @@ GameObject:
   - component: {fileID: 641470222}
   - component: {fileID: 641470221}
   - component: {fileID: 641470220}
-  - component: {fileID: 641470223}
   - component: {fileID: 641470226}
   - component: {fileID: 641470224}
   - component: {fileID: 641470227}
@@ -1496,18 +1443,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641470218}
   m_CullTransparentMesh: 1
---- !u!114 &641470223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641470218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236210e6d1b3b8145a5b94b03ff22af5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &641470224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2781,7 +2716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97974931c5043247b11cd77898c1702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clusterType: 0
+  clusterType: 3
   parentSceneObject: {fileID: 543450653039385863}
   data:
     clusterOnLMIndex: 0
@@ -2793,13 +2728,13 @@ MonoBehaviour:
     ringSpacing: 100
     combineSegmentsInInnermostRing: 0
     height: 1
-    maxDistBetweenClusters: 1
+    maxDistBetweenClusters: 1000001.1
     includeCellsWithOnlyOneRenderer: 1
   sourceObjectBounds:
     m_Center: {x: -5.285507, y: -3.8864899, z: -66.64222}
     m_Extent: {x: 35.84295, y: 18.12353, z: 97.597755}
   prefabOptions_outputFolder: Assets/Mansion2
-  prefabOptions_autoGeneratePrefabs: 0
+  prefabOptions_autoGeneratePrefabs: 1
   prefabOptions_mergeOutputIntoSinglePrefab: 0
   meshBakerSettingsAsset: {fileID: 0}
   meshBakerSettings:
