@@ -6838,6 +6838,53 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11e35f37ff89b2e4bbac5ad4860675a4, type: 3}
+--- !u!1 &792966486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 792966488}
+  - component: {fileID: 792966487}
+  m_Layer: 0
+  m_Name: Fog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &792966487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792966486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686f092e0c263a5458007d49161403da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDensity: 0.01
+  targetDensity: 0.04
+  duration: 120
+--- !u!4 &792966488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792966486}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.312, y: 7.144, z: -15.041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &794951875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18372,6 +18419,7 @@ GameObject:
   - component: {fileID: 6659249789544158171}
   - component: {fileID: 6659249789544158172}
   - component: {fileID: 6659249789544158173}
+  - component: {fileID: 6659249789544158174}
   m_Layer: 0
   m_Name: Door013
   m_TagString: door
@@ -26928,6 +26976,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6659249789544158174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19874164833186257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c8d44f4c7e4574cac2a3155a7128bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 6659249789544158173}
+  openAnimationName: open
+  closeAnimationName: close
+  delayBeforeClose: 10
 --- !u!1 &6667637705174262500
 GameObject:
   m_ObjectHideFlags: 0
@@ -35187,3 +35251,4 @@ SceneRoots:
   - {fileID: 26953659}
   - {fileID: 428895064}
   - {fileID: 1856530443}
+  - {fileID: 792966488}
