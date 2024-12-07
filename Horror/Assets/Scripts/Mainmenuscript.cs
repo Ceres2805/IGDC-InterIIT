@@ -12,4 +12,9 @@ public class Mainmenuscript : MonoBehaviour
    {
     Application.Quit();
    }
+
+   public void Options()
+   {
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+4);
+   }
 }
