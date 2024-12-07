@@ -1,0 +1,5993 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d41887b1546f5c44ab54e7e65aad3bc, type: 3}
+  m_Name: CombinedMat
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: -7091479747940681425, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.7895508
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1016509644715492580, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8949253401679184536, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -9160828555020400680, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4216756922753557751, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9128418
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7692814359506068750, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9782715
+      y: 0.7351074
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1648260480024653830, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.5444336
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 767485125468068040, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.87060547
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 9193532419794615698, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9562988
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1971498769867049900, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.95654297
+      y: 0.7351074
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7848105274732703606, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.76220703
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2097278037896455827, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9562988
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2493630038224122387, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9128418
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6363419976719845602, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.6530762
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1482587117556473376, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5301494095921210179, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.11987305
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6284268843812821545, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.7077637
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8042700587263035611, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.6533203
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1522946548687724269, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.93481445
+      y: 0.7351074
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8888586631695298070, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.13085938
+      y: 0.9794922
+      width: 0.010253906
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8267655793240031161, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5483691242654853951, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2612537584012425027, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3908936447387530582, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.87109375
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5903936756454079466, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1426961648848980460, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.91308594
+      y: 0.7351074
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6846843182556143848, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -775882261743250127, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.54418945
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -406446374256221354, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.82592773
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -717041538918088585, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9562988
+      y: 0.5444336
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6606550145212256363, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.48999023
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5303414020095714097, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8916783378755091162, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.86938477
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3674293571507425403, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2545021052686407543, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3616858694885239805, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6200768435312388271, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.48999023
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3877057140314815410, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8227381483577599192, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.54418945
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2699141690001190847, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.6530762
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -957891066228962035, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.87060547
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6729477828447870619, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1035048517086224712, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1797748174173224973, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.7619629
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5931189334681149199, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5377353841316253516, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.9794922
+      width: 0.021240234
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8224266943554582072, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.91259766
+      y: 0.38110352
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1692222918043443735, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3321727423433976713, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 702353755444414685, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.14160156
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -240984313069382305, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.82592773
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8703281122020702099, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -164607624508369717, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.92578125
+      width: 0.021240234
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6144944289660480625, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.9255371
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8984225867681762090, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8204342318175722141, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 991880023689548706, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8198824757408373395, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -672895403329159369, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8054748827874434788, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0056152344
+      y: 0.99316406
+      width: 0.00048828125
+      height: 0.00048828125
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1015131470793696740, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.8713379
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8437174842416077769, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.89868164
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7676191143960226080, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.8166504
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3514879841708547192, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.7619629
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3623378046783589195, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.6530762
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1476477896587956841, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.54418945
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6705935618436756499, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4081721156480333236, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.9260254
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 76515357816996440, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8373691284819481740, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2747205714903431563, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7595474509398607464, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1276269277930593130, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.87060547
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3392351484850615821, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.7619629
+      width: 0.08618164
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4583125060462381875, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.95336914
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1300414661950781261, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.7351074
+      width: 0.04296875
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -995737637744058729, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.9255371
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6844917625109193978, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.87109375
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5694622286699979766, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.5444336
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5764042492214074064, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.9255371
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5606990743683551665, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.54418945
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6455505326924284454, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.43530273
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6218955284683897061, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.32666016
+      width: 0.08618164
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8787807240245327634, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.21777344
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1536004910565987992, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.87109375
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5308273647803137674, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.10888672
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2247753294915885584, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2338303669682714824, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.48999023
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7414100634060270671, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.5444336
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4603968504971417617, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.86938477
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7033905289950184898, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7643246010684295488, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7036276662840889536, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.48999023
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -9159656303897462910, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.8166504
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1287194571278966193, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.59887695
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -9119364267683032271, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.82592773
+      y: 0.7351074
+      width: 0.04296875
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7102672424022698341, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.76220703
+      width: 0.021240234
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2451276871082838553, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.87060547
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2531151137945798600, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.38110352
+      width: 0.08642578
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5111410143914991406, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.7619629
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6187269236479792002, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9343262
+      y: 0.38110352
+      width: 0.010498047
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 960044740868551494, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.8984375
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5331224858295945309, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9562988
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8187551258093930043, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.6530762
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3737676803962146993, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.54418945
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7041042760824223212, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.8166504
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5832839079021525210, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8311356874268185462, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.81689453
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3788772567247304214, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.8166504
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4339168899585298194, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.10888672
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3173521738435756997, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.09790039
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2597364077344449666, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.15258789
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 71632972240306911, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2095905679265807058, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 999184271545038165, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.84765625
+      y: 0.76220703
+      width: 0.021484375
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3259170558702486639, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3527013266755140012, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3010405275943480224, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5866664268898816944, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.76220703
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6622968498443569497, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5923695969996247099, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7237413678513846314, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6766930271406492804, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.48999023
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8305897408550143281, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3240917257014441789, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8863723057357886603, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.5444336
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8512783222733291438, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8256836
+      y: 0.5444336
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -9100391787652355696, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -468524572760827393, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.5444336
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4845503058503734411, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.10888672
+      width: 0.04296875
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7576853296677333746, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1230512579798554754, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.76220703
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5190261372572145856, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 599160101397942645, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6914420681277101177, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.6533203
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3996053151100735029, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.59887695
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4467438625482682900, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6209810405691312612, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -219255965167672667, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 828147556197156611, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.8442383
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2191852926491906299, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8041992
+      y: 0.76220703
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 9069114646956023953, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.7077637
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5952095079376863505, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.7619629
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8231613641332677933, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.87109375
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6265955826744241561, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.76220703
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 1983784759805735914, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.6530762
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3497095040864452248, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.60839844
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 8221905805707839187, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.48999023
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2802315250630476363, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.43530273
+      width: 0.04296875
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5451810692616915800, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1665504760904359274, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.953125
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 3053773800641255005, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.00024414062
+      width: 0.04296875
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -81915725768809523, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.87060547
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7519692411306725005, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.043701172
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8430738740231438959, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0546875
+      y: 0.9794922
+      width: 0.010498047
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2044833926735447723, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.82592773
+      y: 0.76220703
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 583644438933465891, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.06567383
+      y: 0.9794922
+      width: 0.010253906
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5375799268187820811, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.86938477
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1523673281106071473, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5418627910105170225, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.2607422
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4014315637345808055, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.43530273
+      width: 0.08642578
+      height: 0.05419922
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2659309501764706872, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.32666016
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7877743051933389449, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.8166504
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6104113668608218150, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.54418945
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -6232879045918665394, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -783009846293571870, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.91259766
+      y: 0.5444336
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1007004542729994576, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.6530762
+      width: 0.08618164
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4981962160391672325, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.021972656
+      y: 0.9794922
+      width: 0.021240234
+      height: 0.013183594
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5238495190256608459, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.21777344
+      width: 0.04296875
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4160234770963486624, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.08691406
+      y: 0.87060547
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6621543252099587059, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.00024414062
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -1280081893725254985, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.99316406
+      width: 0.0048828125
+      height: 0.0063476562
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -112128304101665101, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.17382812
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3699075306280217216, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.38110352
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4310965573173873458, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6433732668548031820, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.38110352
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8148411258769607675, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.6533203
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -264497178104478586, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -5062389148886067598, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.78222656
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2808228429248149346, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.86938477
+      y: 0.7351074
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7904632127840397248, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8911133
+      y: 0.7351074
+      width: 0.021484375
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3473772271624548207, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.65185547
+      y: 0.76220703
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -888448188277862089, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.9255371
+      width: 0.04321289
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -7887885412194492352, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.82592773
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4849753046347600529, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.6953125
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6030320688002469221, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8691406
+      y: 0.10888672
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6009792009360618749, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7390137
+      y: 0.87109375
+      width: 0.04296875
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -8590688206180241567, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.34765625
+      y: 0.7619629
+      width: 0.08642578
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -4958470492712126988, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7607422
+      y: 0.92578125
+      width: 0.010498047
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 7950309012843444233, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.4345703
+      y: 0.21777344
+      width: 0.08642578
+      height: 0.10839844
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5797441035701165197, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5214844
+      y: 0.7077637
+      width: 0.08642578
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4161509758694596953, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.8166504
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4844672445422630914, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.84399414
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -3309605838749218477, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.8713379
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 5526142196211022805, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.89868164
+      width: 0.021240234
+      height: 0.026855469
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 4841839685026097770, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7824707
+      y: 0.9260254
+      width: 0.021240234
+      height: 0.026611328
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 6509878826490419214, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9560547
+      y: 0.32666016
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2849453302813157339, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.9128418
+      y: 0.59887695
+      width: 0.04296875
+      height: 0.053955078
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: -2189698671476471317, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00024414062
+      y: 0.00024414062
+      width: 0.08618164
+      height: 0.1081543
+    srcObjName: Mansion2 1
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 96475777b5b7c4c45896b059d8d3ba23, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: -7091479747940681425, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1016509644715492580, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8949253401679184536, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -9160828555020400680, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4216756922753557751, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7692814359506068750, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1648260480024653830, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 767485125468068040, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 9193532419794615698, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1971498769867049900, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7848105274732703606, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2097278037896455827, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2493630038224122387, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6363419976719845602, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1482587117556473376, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5301494095921210179, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6284268843812821545, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8042700587263035611, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1522946548687724269, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8888586631695298070, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8267655793240031161, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5483691242654853951, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2612537584012425027, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3908936447387530582, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5903936756454079466, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1426961648848980460, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6846843182556143848, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -775882261743250127, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -406446374256221354, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -717041538918088585, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6606550145212256363, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5303414020095714097, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8916783378755091162, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3674293571507425403, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2545021052686407543, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3616858694885239805, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6200768435312388271, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3877057140314815410, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8227381483577599192, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2699141690001190847, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -957891066228962035, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6729477828447870619, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1035048517086224712, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1797748174173224973, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5931189334681149199, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5377353841316253516, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8224266943554582072, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1692222918043443735, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3321727423433976713, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 702353755444414685, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -240984313069382305, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8703281122020702099, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -164607624508369717, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6144944289660480625, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8984225867681762090, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8204342318175722141, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 991880023689548706, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8198824757408373395, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -672895403329159369, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8054748827874434788, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1015131470793696740, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8437174842416077769, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7676191143960226080, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3514879841708547192, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3623378046783589195, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1476477896587956841, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6705935618436756499, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4081721156480333236, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 76515357816996440, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8373691284819481740, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2747205714903431563, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7595474509398607464, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1276269277930593130, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3392351484850615821, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4583125060462381875, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1300414661950781261, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -995737637744058729, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6844917625109193978, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5694622286699979766, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5764042492214074064, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5606990743683551665, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6455505326924284454, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6218955284683897061, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8787807240245327634, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1536004910565987992, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5308273647803137674, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2247753294915885584, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2338303669682714824, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7414100634060270671, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4603968504971417617, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7033905289950184898, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7643246010684295488, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7036276662840889536, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -9159656303897462910, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1287194571278966193, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -9119364267683032271, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7102672424022698341, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2451276871082838553, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2531151137945798600, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5111410143914991406, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6187269236479792002, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 960044740868551494, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5331224858295945309, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8187551258093930043, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3737676803962146993, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7041042760824223212, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5832839079021525210, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8311356874268185462, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3788772567247304214, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4339168899585298194, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3173521738435756997, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2597364077344449666, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 71632972240306911, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2095905679265807058, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 999184271545038165, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3259170558702486639, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3527013266755140012, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3010405275943480224, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5866664268898816944, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6622968498443569497, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5923695969996247099, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7237413678513846314, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6766930271406492804, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8305897408550143281, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3240917257014441789, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8863723057357886603, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8512783222733291438, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -9100391787652355696, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -468524572760827393, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4845503058503734411, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7576853296677333746, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1230512579798554754, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5190261372572145856, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 599160101397942645, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6914420681277101177, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3996053151100735029, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4467438625482682900, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6209810405691312612, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -219255965167672667, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 828147556197156611, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2191852926491906299, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 9069114646956023953, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5952095079376863505, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8231613641332677933, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6265955826744241561, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 1983784759805735914, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3497095040864452248, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 8221905805707839187, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2802315250630476363, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5451810692616915800, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1665504760904359274, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 3053773800641255005, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -81915725768809523, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7519692411306725005, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8430738740231438959, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2044833926735447723, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 583644438933465891, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5375799268187820811, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1523673281106071473, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5418627910105170225, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4014315637345808055, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2659309501764706872, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7877743051933389449, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6104113668608218150, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -6232879045918665394, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -783009846293571870, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1007004542729994576, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4981962160391672325, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5238495190256608459, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4160234770963486624, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6621543252099587059, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -1280081893725254985, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -112128304101665101, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3699075306280217216, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4310965573173873458, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6433732668548031820, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8148411258769607675, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -264497178104478586, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -5062389148886067598, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2808228429248149346, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7904632127840397248, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3473772271624548207, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -888448188277862089, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -7887885412194492352, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4849753046347600529, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6030320688002469221, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6009792009360618749, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -8590688206180241567, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -4958470492712126988, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 7950309012843444233, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5797441035701165197, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4161509758694596953, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4844672445422630914, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -3309605838749218477, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 5526142196211022805, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 4841839685026097770, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 6509878826490419214, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: 2849453302813157339, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+    - {fileID: -2189698671476471317, guid: 29f11b9cec528ad47857f7c67b1c4448, type: 3}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0
