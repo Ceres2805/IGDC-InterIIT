@@ -13,6 +13,7 @@ public class CandleShrink : MonoBehaviour
     void Start()
     {
         originalScale = transform.localScale;
+        lightTurnedOff = false;
 
         // Find the candlePointLight if not assigned
         if (candlePointLight == null)

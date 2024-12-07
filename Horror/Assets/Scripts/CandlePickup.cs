@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CandlePickup : MonoBehaviour
 {
@@ -7,11 +8,13 @@ public class CandlePickup : MonoBehaviour
     public float sphereRadius = 0.5f; // Radius of the sphere for the SphereCast
     public Transform holdPosition; // Position to hold the picked-up object
     public TextMeshProUGUI interactText; // TextMeshPro UI text for interaction
+    public string nextSceneName; // Name of the next scene to load
     private GameObject heldObject; // Currently held object
     private Rigidbody heldObjectRigidbody;
-
     private GameObject currentDiary; // Reference to the current diary object
     private Canvas activeDiaryCanvas; // Currently active diary canvas
+    private float noPickupTimer = 0f; // Timer for no object being held
+    public float timeToLoadNextScene = 30f; // Time to wait before loading the next scene
 
     void Start()
     {
@@ -24,9 +27,18 @@ public class CandlePickup : MonoBehaviour
         if (heldObject == null)
         {
             CheckForInteractableObject();
+
+            // Increment timer when no object is held
+            noPickupTimer += Time.deltaTime;
+            if (noPickupTimer >= timeToLoadNextScene)
+            {
+                LoadNextScene();
+            }
         }
         else
         {
+            // Reset the timer when an object is held
+            noPickupTimer = 0f;
             ClearInteraction();
         }
 
@@ -55,7 +67,6 @@ public class CandlePickup : MonoBehaviour
                 // Update text position to follow the object in world space
                 interactText.transform.position = Camera.main.WorldToScreenPoint(hit.collider.transform.position);
             }
-            
             else
             {
                 // Hide text if not looking at an interactable object
@@ -109,5 +120,10 @@ public class CandlePickup : MonoBehaviour
     void ClearInteraction()
     {
         interactText.gameObject.SetActive(false);
+    }
+
+    void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }
